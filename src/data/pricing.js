@@ -1,0 +1,42 @@
+export const plans = [
+  {
+    id: 1,
+    name: "Starter",
+    price: "$0",
+    period: "/month",
+    description: "Everything you need to get started with billing.",
+    features: ["Up to 5 contracts", "Basic analytics", "Email support"],
+    cta: "Start for free",
+    highlighted: false,
+  },
+  {
+    id: 2,
+    name: "Pro",
+    price: "$29",
+    period: "/month",
+    description: "Automation and insights for growing teams.",
+    features: [
+      "Unlimited contracts",
+      "Advanced analytics",
+      "Team collaboration",
+      "Priority support",
+    ],
+    cta: "Get started",
+    highlighted: true,
+  },
+  {
+    id: 3,
+    name: "Enterprise",
+    price: "Custom",
+    period: "",
+    description: "Tailored workflows and dedicated onboarding.",
+    features: [
+      "Everything in Pro",
+      "Custom integrations",
+      "Dedicated manager",
+      "SLA & security review",
+    ],
+    cta: "Contact sales",
+    highlighted: false,
+  },
+];

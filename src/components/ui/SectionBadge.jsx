@@ -1,0 +1,10 @@
+export default function SectionBadge({ icon, label }) {
+  return (
+    <div className="px-[14px] py-[6px] bg-white shadow-[0px_0px_0px_4px_rgba(55,50,47,0.05)] overflow-hidden rounded-[90px] flex justify-start items-center gap-2 border border-[rgba(2,6,23,0.08)]">
+      {icon}
+      <div className="text-center flex justify-center flex-col text-[#37322F] text-xs font-medium leading-3">
+        {label}
+      </div>
+    </div>
+  );
+}
